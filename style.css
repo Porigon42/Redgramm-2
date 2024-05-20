@@ -1,0 +1,139 @@
+css
+
+body{
+    margin: 0; 
+} 
+nav{ 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    border-bottom: 1px solid #caf0f8; 
+    padding: 0 19%; 
+} 
+.logo{ 
+    font-size: 30px; 
+    font-weight: 600; 
+} 
+.right{ 
+    position: absolute; 
+    right: 19%; 
+} 
+.btn{ 
+    background-color: #0077b6; 
+    border-radius: 10px; 
+    color: white; 
+    padding: 10px 16px; 
+    font-weight: 600; 
+    font-size: 20px; 
+} 
+.link{ 
+    color: #0077b6; 
+    font-weight: 600; 
+    margin-left: 15px; 
+} 
+ 
+#posts{ 
+    display: flex; 
+    justify-content: center; 
+} 
+#allposts{ 
+    width: 40%; 
+} 
+.avaImg{ 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 100%; 
+} 
+
+.ava{ 
+    display: flex; 
+    align-items: center; 
+    padding: 15px; 
+} 
+.accountName{ 
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-left: 15px; 
+} 
+ 
+.postImg{ 
+    width: 100%; 
+} 
+.post{ 
+    border: 1px solid #caf0f8; 
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+    border-radius: 15px; 
+} 
+.postImgBox{ 
+    height: 500px; 
+    overflow-y: hidden; 
+} 
+ 
+.postText{ 
+    padding: 30px; 
+    font-size: 30px; 
+} 
+.likesBox{ 
+    font-size: 20px; 
+    align-items: center; 
+    display: flex; 
+    padding: 30px 0 0 30px; 
+}
+
+
+input{
+    display: block;
+    margin: 30px 0;
+    width: 92%;
+    height: 90px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.like{
+    width: 50px;
+    height: 30px; 
+    cursor: pointer;
+    border-radius: 100%;
+    
+}
+.dislike{
+    width: 50px;
+    height: 30px; 
+    border-radius: 100%;
+    cursor: pointer;
+    transform: rotate(180deg)
+}
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 96%;
+    height: 80px;
+    resize: vertical;
+}
+
+.comment {
+    margin: 10px 0;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+.comment small {
+    color: #555;
+}
+.reaction-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

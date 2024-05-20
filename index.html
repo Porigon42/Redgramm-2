@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>Redgramm</title> 
+</head> 
+<body> 
+    <nav> 
+        <a class="logo">Redgramm</a> 
+        <div class="right"> 
+            <a class="btn">Войти</a> 
+            <a class="link">Зарегестрироваться</a>     
+        </div> 
+    </nav> 
+    <section id="posts"> 
+        <div id="allposts"> 
+
+            <div class="post" id="post1"> 
+                <div class="ava"> 
+                    <img class="avaImg" src="https://sh1rroo.github.io/biosite/myselfphoto.png"> 
+                    <p class="accountName">Islam</p> 
+                </div> 
+                <div class="postImgBox"> 
+                    <img class="postImg" src="https://sh1rroo.github.io/biosite/yalegenda.jfif"> 
+                </div> 
+                <div class="likesBox"> 
+                    <div class="reaction-buttons">
+                        <div>
+                            <img class = "like" src="like.png" alt="Like" id="likeButton" onclick="toggleLike()">
+                            <span id="likeCount">0</span>
+                        </div>
+                        <div>
+                            <img class = "dislike" src="like.png" alt="Dislike" id="dislikeButton" onclick="toggleDislike()">
+                            <span id="dislikeCount">0</span>
+                        </div>
+                    </div>
+                    </div>
+                <div class="postText">Lol</div> 
+                <div class="comments-section">
+                    <h3>Comments</h3>
+                    <form class="comment-form" onsubmit="addComment(event)">
+                        <textarea name="comment" placeholder="Write a comment..." required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div class="comments-list">
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </section> 
+    <script src="script.js"></script> 
+</body> 
+</html>
